@@ -4,22 +4,24 @@ This strategy is based on the observation that the price of `TQQQ` and some othe
 
 ## Backtest Result
 
-| Statistic               | Value          | Statistic                 | Value             |
-|--------------------------|----------------|---------------------------|-------------------|
-| Equity                  | $117,403.59   | Fees                      | -$7,166.63       |
-| Holdings                | $120,869.91   | Net Profit                | $17,403.59       |
-| Probabilistic           | 7.507%        | Return                    | 17.40%           |
-| Sharpe Ratio            | 0.228         | Unrealized                | $118.15          |
-| Volume                  | $57,966,597.91| Total Orders              | 738              |
-| Average Win             | 3.29%         | Average Loss              | -3.40%           |
-| Compounding Annual Return | 5.617%       | Drawdown                  | 65.200%          |
-| Expectancy              | 0.042         | Start Equity              | $100,000         |
-| End Equity              | $117,403.59   | Net Profit Percentage     | 17.404%          |
-| Sortino Ratio           | 0.251         | Probabilistic Sharpe Ratio | 7.507%           |
-| Loss Rate               | 47%           | Win Rate                  | 53%              |
-| Profit-Loss Ratio       | 0.97          | Alpha                     | 0.013            |
-| Beta                    | 1.876         | Annual Standard Deviation | 0.412            |
-| Annual Variance         | 0.169         | Information Ratio         | 0.152            |
-| Tracking Error          | 0.332         | Treynor Ratio             | 0.05             |
-| Total Fees              | $7,166.63     | Estimated Strategy Capacity | $11,000,000.00  |
-| Lowest Capacity Asset   | TQQQ UK280CGTCB51 | Portfolio Turnover      | 68.78%           |
+From `2020-01-01` to `2024-12-01`
+
+| Statistic               | Value            | Statistic                 | Value               |
+|--------------------------|------------------|---------------------------|---------------------|
+| Equity                  | $179,677.85     | Fees                      | -$26,062.44        |
+| Holdings                | $0.00           | Net Profit                | $79,677.85         |
+| Probabilistic           | 6.431%          | Return                    | 79.68%             |
+| Unrealized              | $0.00           | Volume                    | $200,766,946.94    |
+| Total Orders            | 1,183           | Average Win               | 3.22%              |
+| Average Loss            | -3.48%          | Compounding Annual Return | 13.269%            |
+| Drawdown                | 69.400%         | Expectancy                | 0.059              |
+| Start Equity            | $100,000        | End Equity                | $179,677.85        |
+| Net Profit Percentage   | 79.678%         | Sharpe Ratio              | 0.397              |
+| Sortino Ratio           | 0.438           | Probabilistic Sharpe Ratio| 6.431%             |
+| Loss Rate               | 45%             | Win Rate                  | 55%                |
+| Profit-Loss Ratio       | 0.93            | Alpha                     | 0.04               |
+| Beta                    | 1.486           | Annual Standard Deviation | 0.429              |
+| Annual Variance         | 0.184           | Information Ratio         | 0.236              |
+| Tracking Error          | 0.349           | Treynor Ratio             | 0.115              |
+| Total Fees              | $26,062.44      | Estimated Strategy Capacity| $10,000,000.00     |
+| Lowest Capacity Asset   | TQQQ UK280CGTCB51 | Portfolio Turnover       | 68.97%             |
