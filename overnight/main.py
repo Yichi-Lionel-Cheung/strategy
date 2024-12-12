@@ -8,7 +8,7 @@ class Overnight(QCAlgorithm):
         # Locally Lean installs free sample data, to download more data please visit https://www.quantconnect.com/docs/v2/lean-cli/datasets/downloading-data
         self.set_start_date(2020, 1, 1)  # Set Start Date
         self.set_end_date(2024, 12, 1)  # Set End Date
-        self.set_cash(100000)  # Set Strategy Cash
+        self.set_cash(1000000)  # Set Strategy Cash
         self.tqqq = self.add_equity("TQQQ", resolution=Resolution.MINUTE).symbol
         self.holding_flag = False
 

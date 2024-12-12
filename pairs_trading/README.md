@@ -2,7 +2,7 @@
 
 This strategy is based on the observation that 2 stocks tend to move together. The strategy buys the underperforming stock and sells the outperforming stock when the spread between the two stocks is greater than a certain threshold.
 
-We set `KO` and `PEP` as the pair of stocks to trade. We buy `KO` and sell `PEP` when the spread between the two stocks is greater than 2 standard deviations.
+We set `KO` and `PEP` as the pair of stocks to trade. We buy `KO` and sell `PEP` when the spread between the two stocks is greater than 2 standard deviations, vice versa.
 
 ## Backtest Result
 

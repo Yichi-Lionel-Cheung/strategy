@@ -1,29 +1,31 @@
 # Strategy
 
-This repository contains my personal trading strategies. The strategies are implemented by [LEAN](https://github.com/QuantConnect/Lean) and backtested by [QuantConnect](https://www.quantconnect.com/).
+This repository contains my personal trading strategies. The strategies are implemented by [LEAN](https://github.com/QuantConnect/Lean) and backtested by [QuantConnect](https://www.quantconnect.com/). Note that the strategies are for educational purposes only and should not be considered as financial advice.
 
-# Usage
+## Setup and Backtest
 
-1. Install [LEAN](https://github.com/QuantConnect/Lean) according to the official guide
+1. Install [LEAN CLI](https://github.com/QuantConnect/Lean) according to the official guide
 
-2. Initialize a new project by `lean init`
+2. Initialize the project
 
-```console
-lean init
-```
+    ```console
+    cd strategy
+    lean init
+    ```
 
-3. Backtest some strategies
+3. Backtest some strategies (cloud backtest recommended)
 
-```console
- lean cloud backtest --push <strategy-name>
-```
+    ```console
+    cd strategy
+    lean cloud backtest --push --open <strategy-name>
+    ```
 
 ## Strategy Zoo
 
 + [Overnight](overnight/)
 + [Pairs Trading](pairs_trading/)
 
-### TBD
+### Under Development
 
 + Momentum
 + Mean Reversion
