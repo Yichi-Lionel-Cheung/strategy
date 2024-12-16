@@ -24,6 +24,7 @@ This repository contains my personal trading strategies. The strategies are impl
 
 + [Overnight](overnight/)
 + [Pairs Trading](pairs_trading/)
++ [Decision Tree](decision_tree/)
 
 ### Under Development
 
