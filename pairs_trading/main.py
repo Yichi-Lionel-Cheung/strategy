@@ -19,7 +19,7 @@ class Pairstrading(QCAlgorithm):
         
         self.window = 30
         self.spread = RollingWindow[float](self.window)
-        self.entry_threshold = 2.0
+        self.entry_threshold = 3.0
         
         # Warm up the algorithm
         self.set_warmup(timedelta(days=self.window))
@@ -46,13 +46,13 @@ class Pairstrading(QCAlgorithm):
             self.today_traded = True
             if z_score > self.entry_threshold:
                 # Short PEP, Long KO
-                self.set_holdings(self.pep, -0.5)
-                self.set_holdings(self.ko, 0.5)
+                self.set_holdings(self.pep, -0.8)
+                self.set_holdings(self.ko, 0.8)
                 self.log(f"Short PEP, Long KO: {z_score}, date: {self.Time}")
             elif z_score < -self.entry_threshold:
                 # Long PEP, Short KO
-                self.set_holdings(self.pep, 0.5)
-                self.set_holdings(self.ko, -0.5)
+                self.set_holdings(self.pep, 0.8)
+                self.set_holdings(self.ko, -0.8)
                 self.log(f"Long PEP, Short KO: {z_score}, date: {self.Time}")
 
         self.today_traded = False

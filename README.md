@@ -22,9 +22,11 @@ This repository contains my personal trading strategies. The strategies are impl
 
 ## Strategy Zoo
 
-+ [Overnight](overnight/)
-+ [Pairs Trading](pairs_trading/)
-+ [Decision Tree](decision_tree/)
+| Strategy                   | Compounding Annual Return             | Sharpe Ratio                   |
+|-----------------------------|-------------------|-----------------------------|
+| [Decision Tree](decision_tree/) | 18.657% | 0.661 |
+| [Overnight](overnight/) | 13.262% | 0.397 |
+| [Pairs Trading](pairs_trading/) | 9.144% | 0.423 |
 
 ### Under Development
 

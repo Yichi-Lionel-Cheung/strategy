@@ -8,23 +8,22 @@ We set `KO` and `PEP` as the pair of stocks to trade. We buy `KO` and sell `PEP`
 
 From `2020-01-01` to `2024-12-01`
 
-| Statistic               | Value          | Statistic                 | Value             |
-|--------------------------|----------------|---------------------------|-------------------|
-| Equity                  | $1,350,694.62 | Fees                      | -$3,826.56       |
-| Holdings                | $1,326,929.26 | Net Profit                | $317,142.86      |
-| Probabilistic           | 22.187%       | Return                    | 35.07%           |
-| Unrealized              | $33,486.39    | Volume                    | $58,048,933.00   |
-| Total Orders            | 240           | Average Win               | 0.99%            |
-| Average Loss            | -0.49%        | Compounding Annual Return | 6.601%           |
-| Drawdown                | 11.300%       | Expectancy                | 0.350            |
-| Start Equity            | $1,000,000    | End Equity                | $1,350,694.62    |
-| Net Profit Percentage   | 35.069%       | Sharpe Ratio              | 0.343            |
-| Sortino Ratio           | 0.432         | Probabilistic Sharpe Ratio| 22.187%          |
-| Loss Rate               | 55%           | Win Rate                  | 45%              |
-| Profit-Loss Ratio       | 2.00          | Alpha                     | 0.018            |
-| Beta                    | 0.052         | Annual Standard Deviation | 0.065            |
-| Annual Variance         | 0.004         | Information Ratio         | -0.364           |
-| Tracking Error          | 0.181         | Treynor Ratio             | 0.431            |
-| Total Fees              | $3,826.56     | Estimated Strategy Capacity| $120,000,000.00  |
-| Lowest Capacity Asset   | PEP R735QTJ8XC9X | Portfolio Turnover      | 2.84%            |
-
+| Statistic                   | Value             | Statistic                   | Value              |
+|-----------------------------|-------------------|-----------------------------|--------------------|
+| Equity                      | $1,511,613.97    | Fees                        | -$910.97          |
+| Holdings                    | $2,396,491.88    | Net Profit                  | $336,089.86       |
+| Probabilistic Sharpe Ratio  | 18.054%          | Return                      | 51.16%            |
+| Unrealized                  | $175,400.27      | Volume                      | $14,585,407.39    |
+| Total Orders                | 18               | Average Win                 | 5.28%             |
+| Average Loss                | -4.75%           | Compounding Annual Return   | 9.144%            |
+| Drawdown                    | 13.900%          | Expectancy                  | 0.583             |
+| Start Equity                | $1,000,000       | End Equity                  | $1,511,613.97     |
+| Net Profit Percentage       | 51.161%          | Sharpe Ratio                | 0.423             |
+| Sortino Ratio               | 0.47             | Probabilistic Sharpe Ratio  | 18.054%           |
+| Loss Rate                   | 25%              | Win Rate                    | 75%               |
+| Profit-Loss Ratio           | 1.11             | Alpha                       | 0.036             |
+| Beta                        | 0.069            | Annual Standard Deviation   | 0.1               |
+| Annual Variance             | 0.01             | Information Ratio           | -0.251            |
+| Tracking Error              | 0.193            | Treynor Ratio               | 0.613             |
+| Total Fees                  | $910.97          | Estimated Strategy Capacity | $70,000,000.00    |
+| Lowest Capacity Asset       | PEP R735QTJ8XC9X | Portfolio Turnover          | 0.68%             |
